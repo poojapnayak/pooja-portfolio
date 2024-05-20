@@ -1,0 +1,137 @@
+#contactPage {
+  min-height: calc(100vh-4rem);
+  width: 100vw;
+  max-width: 60rem;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.clientsPageTitle {
+  font-size: 2rem;
+  margin: 1.5rem;
+  font-weight: 600;
+}
+
+.clientsDesc {
+  font-size: 1rem;
+  font-weight: 300;
+  padding: 0 2rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.05rem;
+}
+
+.clientsImgs {
+  margin: 2rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+}
+
+.clientsImg {
+  object-fit: cover;
+  height: 5rem;
+  width: 25%;
+  min-width: 9rem;
+  margin: auto;
+  padding: 0.25rem;
+  border-radius: 1rem;
+}
+
+#clients {
+  padding: 2rem;
+}
+
+.contactPageTitle {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.contactDesc {
+  padding: 1rem;
+  font-size: medium;
+  font-weight: 300;
+}
+
+.contactForm {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90vw;
+  max-width: 60rem;
+}
+
+.name,
+.email,
+.msg {
+  font-size: medium;
+  width: 100%;
+  max-width: 40rem;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  background: rgb(40, 40, 40);
+}
+
+.submitBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 1.5rem;
+  border: none;
+  width: 9rem;
+  height: 6vh;
+  padding: 0.75rem;
+  color: black;
+  margin: 1.5rem 0;
+}
+
+.submitBtn:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+
+.message-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.messageBox {
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  background: green;
+  border: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  width: 300px;
+  margin-bottom: 1.75rem;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  object-fit: cover;
+  height: 3rem;
+  width: 3rem;
+  margin: 0 0.75rem;
+}

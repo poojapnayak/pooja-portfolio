@@ -1,0 +1,134 @@
+#works {
+  margin: 0 auto;
+  min-height: calc(100vh-4rem);
+  width: 100vw;
+  max-width: 60rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.worksTitle {
+  margin: 1.5rem;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.worksDesc {
+  font-size: 1rem;
+  font-weight: 300;
+  max-width: 45rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.05rem;
+}
+
+.worksImgs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100vw;
+  max-width: 65rem;
+}
+
+.worksImg {
+  object-fit: cover;
+  height: 20rem;
+  width: 20rem;
+  margin: 0.5rem;
+}
+
+.worksBtn {
+  border: none;
+  background: white;
+  border-radius: 2rem;
+  padding: 0.5rem 2.5rem;
+  font-size: 1rem;
+  margin: 3rem 0;
+}
+
+.worksBox-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* grid-template-columns: repeat(2, 1fr); */
+  align-items: center;
+  gap: 2.5rem;
+  margin: 1.5rem;
+  margin-top: 2.5rem;
+}
+
+.works-box {
+  box-sizing: border-box;
+  color: black;
+  background-color: white;
+  height: 280px;
+  border-radius: 3rem;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+  max-width: 400px;
+  max-height: 300px;
+  /* overflow: auto; */
+}
+
+.works-box:hover {
+  background: black;
+  color: white;
+  border: 2px solid white;
+}
+
+.works-info {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  max-height: 280px;
+  justify-content: left;
+  align-items: baseline;
+  padding: 1rem 1rem;
+}
+
+.worksYear {
+  opacity: 0.7;
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: left;
+}
+
+.works-info h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 2;
+}
+
+.worksParag {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: left;
+  align-items: baseline;
+  padding: 1rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  max-height: 200px;
+  line-height: 1.5;
+  margin: auto;
+}
+
+@media screen and (max-width: 585px) {
+  .worksImg {
+    height: 48vw;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .works-box {
+    flex-wrap: wrap;
+  }
+}
