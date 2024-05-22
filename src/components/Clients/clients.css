@@ -41,10 +41,6 @@
   border-radius: 1rem;
 }
 
-#clients {
-  padding: 2rem;
-}
-
 @media screen and (max-width: 885px) {
   .clientsImg {
     width: 15rem;
