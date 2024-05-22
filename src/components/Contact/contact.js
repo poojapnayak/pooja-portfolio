@@ -13,9 +13,7 @@ const Contact = () => {
     e.preventDefault();
 
     const formData = new FormData(form.current);
-    const name = formData.get("your_name");
     const email = formData.get("your_email");
-    const message = formData.get("message");
 
     // Simple email validation
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -82,6 +80,7 @@ const Contact = () => {
           <a
             href="https://www.linkedin.com/in/pooja-p-nayak-b319031b8/"
             target="_blank"
+            rel="noreferrer"
           >
             <img src={linkedInlogo} alt="linkedIn" className="link" />
           </a>

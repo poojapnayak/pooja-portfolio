@@ -1,6 +1,5 @@
 import React from "react";
 import "./intro.css";
-import { Link } from "react-scroll";
 
 //Images
 import profileImg from "../../assets/profileImg.png";
