@@ -10,41 +10,6 @@
   justify-content: center;
 }
 
-.clientsPageTitle {
-  font-size: 2rem;
-  margin: 1.5rem;
-  font-weight: 600;
-}
-
-.clientsDesc {
-  font-size: 1rem;
-  font-weight: 300;
-  padding: 0 2rem;
-  line-height: 1.5rem;
-  letter-spacing: 0.05rem;
-}
-
-.clientsImgs {
-  margin: 2rem 0;
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 3rem;
-}
-
-.clientsImg {
-  object-fit: cover;
-  height: 5rem;
-  width: 25%;
-  min-width: 9rem;
-  margin: auto;
-  padding: 0.25rem;
-  border-radius: 1rem;
-}
-
-#clients {
-  padding: 2rem;
-}
-
 .contactPageTitle {
   font-size: 2rem;
   font-weight: 600;

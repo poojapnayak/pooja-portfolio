@@ -19,7 +19,7 @@ const Skills = () => {
         Developer. Proven track record of delivering successful solutions across
         diverse technologies. Actively available for immediate hire in UAE,
         seeking a challenging role to apply my adaptable nature to new
-        technologies and quick learning ability, and contribute to innovative
+        technologies, quick learning ability, and contribute to innovative
         projects within a collaborative team environment.
       </span>
       <Marquee pauseOnHover="false">

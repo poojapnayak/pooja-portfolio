@@ -1,31 +1,21 @@
 import React from "react";
 import "./works.css";
 
-//images
-import profileImg from "../../assets/profileImg.png";
-import hireMe from "../../assets/hireMe.png";
-import webDev from "../../assets/webDev.png";
-import plogo from "../../assets/plogo.png";
-import contactEmail from "../../assets/contactEmail.png";
-import menu from "../../assets/menu.png";
-
 const Works = () => {
   return (
     <section id="works">
       <span className="worksTitle">My Experiences</span>
       <span className="worksDesc">
-        I take a pride in paying attention to the smallest details with 5 years
-        of proficiency as a ReactJS Developer. Proven track record of delivering
-        successful solutions across diverse technologies. Actively available for
-        immediate hire in UAE, seeking a challenging role to apply my adaptable
-        nature to new technologies and quick learning ability, and contribute to
-        innovative projects within a collaborative team environment.
+        Highly skilled and adaptable Developer with 5 years of experience in
+        frontend technologies such as ReactJS, JavaScript, TypeScript, CSS, and
+        HTML. Specialized in creating engaging and user-friendly interfaces to
+        deliver exceptional user experiences.
       </span>
       <div className="worksBox-container">
         <div className="works-box">
           <div className="works-info">
-            <h3>Senior Software Engineer</h3>
-            <span className="worksYear">Jul 2023 - Dec 2023</span>
+            <h3>Senior Frontend Developer</h3>
+            <span className="worksYear">WorkBoard (Jul 2022 - Dec 2022)</span>
             <ul className="worksParag">
               <li>
                 I utilized ReactJS and TypeScript to develop a robust and
@@ -45,56 +35,49 @@ const Works = () => {
         </div>
         <div className="works-box">
           <div className="works-info">
-            <h3>Senior Software Engineer</h3>
-            <span className="worksYear">Jul 2023 - Dec 2023</span>
+            <h3>Senior Frontend Developer</h3>
+            <span className="worksYear">ABB LCAP (Jul 2021 - Jul 2022)</span>
             <ul className="worksParag">
               <li>
-                I utilized ReactJS and TypeScript to develop a robust and
-                responsive user interface.
+                Researched and implemented multi-language support to the
+                application, leveraging my expertise in ReactJS for seamless
+                integration.
               </li>
               <li>
-                Collaborated closely with team members, including the Team Lead,
-                to ensure the application met the required WCAG accessibility
-                standards.
+                Implemented the necessary features and ensured their
+                functionality through the development of proof-of-concepts
+                (POCs).
               </li>
               <li>
-                Tracked project status and managed tasks using Jira, enabling
-                effective collaboration within the team.
+                Created .jar files for the QA team to validate, ensuring the
+                application's readiness for production and seamless deployment.
               </li>
             </ul>
           </div>
         </div>
         <div className="works-box">
           <div className="works-info">
-            <h3>Software Engineer</h3>
-            <span className="worksYear">Jul 2023 - Dec 2023</span>
+            <h3>Frontend Developer</h3>
+            <span className="worksYear">iAlert (Jul 2018 - Jul 2021)</span>
             <ul className="worksParag">
               <li>
-                I utilized ReactJS and TypeScript to develop a robust and
-                responsive user interface.
+                Collaborated with team members, including Project Manager to
+                minimize the work delays and to provide the efficient and
+                responsive application.
               </li>
               <li>
-                Collaborated closely with team members, including the Team Lead,
-                to ensure the application met the required WCAG accessibility
-                standards.
+                Researched and leveraged my expertise in ReactJS and JavaScript
+                to design and implement a scalable application, significantly
+                enhancing performance.
               </li>
               <li>
-                Tracked project status and managed tasks using Jira, enabling
-                effective collaboration within the team.
+                To facilitate scalability and customization, the application was
+                deployed in AWS Elastic Beanstalk.
               </li>
             </ul>
           </div>
         </div>
       </div>
-      {/* <div className="worksImgs">
-        <img src={profileImg} alt="profile" className="worksImg"></img>
-        <img src={hireMe} alt="hire me" className="worksImg"></img>
-        <img src={webDev} alt="web dev" className="worksImg"></img>
-        <img src={plogo} alt="p logo" className="worksImg"></img>
-        <img src={contactEmail} alt="contact" className="worksImg"></img>
-        <img src={menu} alt="menu" className="worksImg"></img>
-      </div> */}
-      {/* <button className="worksBtn">See more</button> */}
     </section>
   );
 };

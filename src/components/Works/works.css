@@ -71,7 +71,6 @@
   transition: 0.4s ease-in-out;
   max-width: 400px;
   max-height: 300px;
-  /* overflow: auto; */
 }
 
 .works-box:hover {
@@ -94,7 +93,6 @@
   opacity: 0.7;
   font-size: 0.75rem;
   font-weight: 600;
-  margin-bottom: 0.5rem;
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -127,8 +125,22 @@
   }
 }
 
-@media screen and (max-width: 790px) {
-  .works-box {
-    flex-wrap: wrap;
+@media screen and (max-width: 462px) {
+  .works-info {
+    padding: 0.8rem;
+  }
+
+  .works-info h3 {
+    font-size: 18px;
+  }
+
+  .worksParag {
+    padding: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .worksParag {
+    font-size: 0.7rem;
   }
 }

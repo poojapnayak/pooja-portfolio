@@ -4,7 +4,7 @@ import "./footer.css";
 const Footer = () => {
   return (
     <footer className="footer">
-      copyright; 2024 pooja nayak. All rights received
+      Copyright &#169; 2024 Pooja Nayak. All Rights Reserved
     </footer>
   );
 };

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./navBar.css";
 import { Link } from "react-scroll";
+
 //Images
 import menu from "../../assets/menu.png";
 
@@ -23,7 +24,7 @@ const Navbar = () => {
           spy={true}
           smooth={true}
           duration={500}
-          offset={-50}
+          offset={-100}
           className="desktopMenuListItem"
         >
           Home
@@ -34,7 +35,7 @@ const Navbar = () => {
           spy={true}
           smooth={true}
           duration={500}
-          offset={-50}
+          offset={-100}
           className="desktopMenuListItem"
         >
           About
@@ -45,7 +46,7 @@ const Navbar = () => {
           spy={true}
           smooth={true}
           duration={500}
-          offset={-50}
+          offset={-100}
           className="desktopMenuListItem"
         >
           Portfolio
@@ -56,7 +57,7 @@ const Navbar = () => {
           spy={true}
           smooth={true}
           duration={500}
-          offset={-50}
+          offset={-100}
           className="desktopMenuListItem"
         >
           Clients
@@ -67,7 +68,7 @@ const Navbar = () => {
           spy={true}
           smooth={true}
           duration={500}
-          offset={-50}
+          offset={-100}
           className="desktopMenuListItem"
         >
           Contact
