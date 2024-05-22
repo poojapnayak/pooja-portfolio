@@ -4,7 +4,6 @@ import Skills from "./components/Skills/Skills";
 import Works from "./components/Works/works";
 import Contact from "./components/Contact/contact";
 import Footer from "./components/Footer/footer";
-import Clients from "./components/Clients/clients";
 
 function App() {
   return (
@@ -13,7 +12,6 @@ function App() {
       <Intro />
       <Skills />
       <Works />
-      <Clients />
       <Contact />
       <Footer />
     </div>
