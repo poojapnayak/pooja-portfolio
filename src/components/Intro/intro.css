@@ -5,9 +5,14 @@
   margin: 0 auto;
   overflow: hidden;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.bgImage {
+.bgImage img {
+  width: 400px;
+  height: auto;
   position: absolute;
   top: 2rem;
   right: 0;
@@ -98,5 +103,12 @@
 @media screen and (max-width: 480px) {
   .btn {
     right: -20vw;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .bgImage img {
+    display: block;
+    width: 55vw;
   }
 }

@@ -15,18 +15,6 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    const formData = new FormData(form.current);
-    const email = formData.get("your_email");
-
-    // Simple email validation
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (!emailRegex.test(email)) {
-      setMessage("Invalid email address");
-      setTimeout(() => setMessage(""), 5000);
-      return;
-    }
-    form.current.reset();
-
     emailjs
       .sendForm("service_5za77dj", "template_nv5d3qg", form.current, {
         publicKey: "1C16mvsAnnlD3l3XT",
@@ -47,8 +35,8 @@ const Contact = () => {
       <div id="clients">
         <h2 className="clientsPageTitle">My Clients</h2>
         <p className="clientsDesc">
-          I have had the opportunities to work with diverse group of companies.
-          Some of the notable companies I have worked with includes
+          I have had the opportunities to work with diverse group of companies
+          such as
         </p>
         <div className="clientsImgs">
           <img
@@ -67,35 +55,60 @@ const Contact = () => {
 
       <div id="contact">
         <h1 className="contactPageTitle">Contact Me</h1>
-        <span className="contactDesc">
-          Please fill out the form below to discuss any work opportunities.
-        </span>
-        <form className="contactForm" ref={form} onSubmit={sendEmail}>
-          <input
-            type="text"
-            className="name"
-            placeholder="Your name"
-            name="your_name"
-            required
-          />
-          <input
-            type="email"
-            className="email"
-            placeholder="Your email"
-            name="your_email"
-            required
-          />
-          <textarea
-            name="message"
-            rows={5}
-            placeholder="Your message"
-            className="msg"
-            required
-          />
-          <button type="submit" className="submitBtn" value="Send">
-            Submit
-          </button>
-        </form>
+        <div className="contact-section">
+          <div className="contact-left">
+            <h1>Let's talk!</h1>
+            <p>
+              I'm currently available to take on new projects, so feel free to
+              contact me for any new opportunities.
+            </p>
+            <div className="contact-details">
+              <div className="contact-detail">
+                <img src="" alt=""></img>
+                <p>poojapnayak9@gmail.com</p>
+              </div>
+              <div className="contact-detail">
+                <img src="" alt=""></img>
+                <p>+971 562405857</p>
+              </div>
+              <div className="contact-detail">
+                <img src="" alt=""></img>
+                <p>Dubai, UAE</p>
+              </div>
+            </div>
+          </div>
+          <div className="contact-right">
+            <form ref={form} onSubmit={sendEmail}>
+              {/* <label htmlFor="">Your Name</label> */}
+              <input
+                type="text"
+                className="name"
+                placeholder="Enter your name"
+                name="your_name"
+                required
+              />
+              {/* <label htmlFor="">Your Email</label> */}
+              <input
+                type="email"
+                className="email"
+                placeholder="Enter your email"
+                name="your_email"
+                required
+              />
+              {/* <label htmlFor="">Your Message</label> */}
+              <textarea
+                name="message"
+                rows={5}
+                placeholder="Enter your message"
+                className="msg"
+                required
+              />
+              <button type="submit" className="submitBtn" value="Send">
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
         <span className="message-container">
           {message && <p className="messageBox">{message}</p>}
         </span>

@@ -12,7 +12,7 @@ const Intro = () => {
         <span className="intoText">
           I'm <span className="introName">Pooja</span>
           <br />
-          Website Developer
+          Frontend Developer
         </span>
         <p className="introParag">
           I'm a skilled and passionate web developer with experience in creating
@@ -33,7 +33,9 @@ const Intro = () => {
           Download CV
         </a>
       </div>
-      <img src={profileImg} alt="My Profile" className="bgImage"></img>
+      <div className="bgImage">
+        <img src={profileImg} alt="My Profile"></img>
+      </div>
     </section>
   );
 };

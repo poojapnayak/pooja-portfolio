@@ -45,10 +45,14 @@
   padding: 2rem;
 }
 
+#contact {
+  padding: 2rem;
+}
+
 .contactPageTitle {
   font-size: 2rem;
   font-weight: 600;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 .contactDesc {
@@ -57,14 +61,48 @@
   font-weight: 300;
 }
 
-.contactForm {
-  margin: 1rem;
+.contact-section {
+  display: flex;
+  gap: 130px;
+}
+
+.contact-left {
   display: flex;
   flex-direction: column;
+  gap: 25px;
+}
+
+.contact-left h1 {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  font-size: 28px;
+}
+
+.contact-left p {
+  max-width: 550px;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 15px;
+}
+
+.contact-detail {
+  display: flex;
   align-items: center;
-  justify-content: center;
-  width: 90vw;
-  max-width: 60rem;
+  gap: 20px;
+}
+
+.contact-right {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 30px;
 }
 
 .name,
@@ -94,7 +132,7 @@
   height: 6vh;
   padding: 0.75rem;
   color: black;
-  margin: 1.5rem 0;
+  margin: 1.5rem 1rem;
 }
 
 .submitBtn:hover {
@@ -139,5 +177,22 @@
 @media screen and (max-width: 885px) {
   .clientsImg {
     width: 15rem;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .contact-section {
+    display: block;
+  }
+  .contact-right {
+    margin-top: 2rem;
+  }
+  .submitBtn {
+    margin: 1rem auto;
+  }
+  .name,
+  .email,
+  .msg {
+    max-width: 22rem;
   }
 }
