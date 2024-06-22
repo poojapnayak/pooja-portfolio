@@ -6,35 +6,28 @@ import profileImg from "../../assets/profileImg.png";
 
 const Intro = () => {
   return (
-    <section id="intro">
-      <div className="introContent">
-        <span className="hello">Hello,</span>
-        <span className="intoText">
-          I'm <span className="introName">Pooja</span>
-          <br />
-          Frontend Developer
-        </span>
-        <p className="introParag">
-          I'm a skilled and passionate web developer with experience in creating
-          <br />
-          visually appealing and user-centric websites.
+    <section id="home">
+      <div className="home-content">
+        <h3>Hi,</h3>
+        <h1>
+          I'm <span>Pooja</span>
+        </h1>
+        <h3>Frontend Developer</h3>
+        <p>
+          I'm a skilled and passionate web developer with over 5 years of
+          experience in creating visually appealing and user-centric websites.
         </p>
-        {/* <Link>
-            <button className="btn">
-              <img src={hireMe} alt="Hire me" className="hireBtnImg" />
-              Hire me
-            </button>
-          </Link> */}
         <a
-          href="https://drive.google.com/uc?export=download&id=1YU-qxlVC-XW6uMsjH7ZjP6lYxTMA4xXj"
+          href="https://drive.google.com/uc?export=download&id=1w0IrvVK_DI5OCRR7jjdBcWmphLUyBSZI"
+          className="downloadCV-btn"
           download
-          className="downloadCvBtn"
         >
           Download CV
         </a>
       </div>
-      <div className="bgImage">
-        <img src={profileImg} alt="My Profile"></img>
+
+      <div className="home-img">
+        <img src={profileImg} alt="home-img"></img>
       </div>
     </section>
   );

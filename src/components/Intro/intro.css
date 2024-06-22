@@ -1,114 +1,80 @@
-#intro {
-  height: calc(100vh - 5rem);
-  width: 100vw;
-  max-width: 75rem;
-  margin: 0 auto;
-  overflow: hidden;
-  position: relative;
+#home {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.bgImage img {
-  width: 400px;
-  height: auto;
-  position: absolute;
-  top: 2rem;
-  right: 0;
-  z-index: -1;
-  object-fit: cover;
-  border-radius: 50%;
-}
-
-.introContent {
-  height: 100vh;
   width: 100vw;
+  max-width: 70rem;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
   padding: 2rem;
-  font-size: 3rem;
-  font-weight: 700;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
-.hello {
+.home-content h3 {
   font-size: 1.75rem;
-  font-weight: 100;
+  font-weight: 500;
 }
 
-.introName {
+.home-content h3:nth-of-type(2) {
+  margin-bottom: 1.5rem;
+}
+
+.home-content span {
   color: yellow;
 }
 
-.introParag {
-  font-size: medium;
+.home-content h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.home-img img {
+  width: 25vw;
+  border-radius: 50%;
+}
+
+.home-content p {
+  font-size: 1.2rem;
   font-weight: 300;
   letter-spacing: 1px;
 }
 
-.btn {
-  background-color: white;
-  margin: 1rem 0;
-  font-weight: 600;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.downloadCV-btn {
+  display: inline-block;
   padding: 0.75rem 1.5rem;
+  background: white;
   border-radius: 2rem;
   border: none;
-}
-
-.hireBtnImg {
-  object-fit: cover;
-  height: 1rem;
-  width: 1rem;
-  margin: 0 0.25rem;
-}
-
-.downloadCvBtn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: white;
   font-weight: 600;
-  font-size: 1rem;
-  border-radius: 2rem;
-  border: none;
-  width: 9rem;
-  height: 6vh;
-  padding: 0.75rem;
   color: black;
-  margin: 1.5rem 0;
+  letter-spacing: 0.1rem;
+  margin: 1rem 0;
 }
 
-.downloadCvBtn:hover {
+.downloadCV-btn:hover {
   background-color: black;
   color: white;
   border: 2px solid white;
 }
 
-@media screen and (max-width: 840px) {
-  .btn {
-    right: -10vw;
+@media (max-width: 768px) {
+  .home-content {
+    order: 2;
   }
-  .introContent {
-    font-size: 10vw;
+  #home {
+    flex-direction: column;
   }
-  .hello {
-    font-size: 4.5vw;
+  .home-content h3 {
+    font-size: 1.2rem;
   }
-}
-
-@media screen and (max-width: 480px) {
-  .btn {
-    right: -20vw;
+  .home-content h1 {
+    font-size: 1.7rem;
   }
-}
-
-@media screen and (max-width: 720px) {
-  .bgImage img {
-    display: block;
-    width: 55vw;
+  .home-content p {
+    font-size: 1rem;
+  }
+  .home-img img {
+    width: 60vw;
   }
 }

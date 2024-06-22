@@ -79,7 +79,6 @@ const Contact = () => {
           </div>
           <div className="contact-right">
             <form ref={form} onSubmit={sendEmail}>
-              {/* <label htmlFor="">Your Name</label> */}
               <input
                 type="text"
                 className="name"
@@ -87,7 +86,6 @@ const Contact = () => {
                 name="your_name"
                 required
               />
-              {/* <label htmlFor="">Your Email</label> */}
               <input
                 type="email"
                 className="email"
@@ -95,7 +93,6 @@ const Contact = () => {
                 name="your_email"
                 required
               />
-              {/* <label htmlFor="">Your Message</label> */}
               <textarea
                 name="message"
                 rows={5}
