@@ -18,7 +18,7 @@ const Intro = () => {
           experience in creating visually appealing and user-centric websites.
         </p>
         <a
-          href="https://drive.google.com/uc?export=download&id=1w0IrvVK_DI5OCRR7jjdBcWmphLUyBSZI"
+          href="https://drive.google.com/uc?export=download&id=1cBeokzCOEPMwRoxVn1cZ_kQfE5H4rvQf"
           className="downloadCV-btn"
           download
         >
