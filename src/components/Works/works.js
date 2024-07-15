@@ -15,7 +15,7 @@ const Works = () => {
         <div className="works-box">
           <div className="works-info">
             <h3>Senior Frontend Developer</h3>
-            <span className="worksYear">WorkBoard (Jul 2022 - Dec 2022)</span>
+            <span className="worksYear">WorkBoard (Aug 2022 - Sep 2023)</span>
             <ul className="worksParag">
               <li>
                 I utilized ReactJS and TypeScript to develop a robust and
@@ -36,7 +36,7 @@ const Works = () => {
         <div className="works-box">
           <div className="works-info">
             <h3>Senior Frontend Developer</h3>
-            <span className="worksYear">ABB LCAP (Jul 2021 - Jul 2022)</span>
+            <span className="worksYear">ABB LCAP (Jul 2021 - Aug 2022)</span>
             <ul className="worksParag">
               <li>
                 Researched and implemented multi-language support to the
